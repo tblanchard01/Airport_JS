@@ -1,6 +1,6 @@
 'use strict'
 
-function Airport() {
+function Airport(weather = new Weather) {
     this._hanger = []
 }
 Airport.prototype.planes = function () {
